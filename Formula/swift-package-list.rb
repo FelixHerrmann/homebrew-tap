@@ -7,6 +7,7 @@ class SwiftPackageList < Formula
 
   def install
     bin.install "swift-package-list"
+    generate_completions_from_executable(bin/"swift-package-list", "--generate-completion-script")
   end
 
   test do
