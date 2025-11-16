@@ -1,8 +1,8 @@
 class SwiftPackageList < Formula
   desc "A command-line tool to generate a JSON, PLIST, Settings.bundle or PDF file with all used SPM-dependencies of an Xcode project or workspace."
   homepage "https://github.com/FelixHerrmann/swift-package-list"
-  url "https://github.com/FelixHerrmann/swift-package-list/releases/download/4.8.0/swift-package-list.tar.gz"
-  sha256 "203daaf1c7bdc3a1355fba63d12f865beb073b628d9d7b6e5109f8f3dc8b2cc4"
+  url "https://github.com/FelixHerrmann/swift-package-list/releases/download/4.9.0/swift-package-list.tar.gz"
+  sha256 "8a5760ef8d945472dfae84e37c6218b7ad9d8671bc08322b5f9a9dbc6503b49f"
   license "MIT"
 
   def install
